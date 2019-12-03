@@ -21,6 +21,7 @@ router
   .route('/')
   .get(advancedResults(User), getUsers)
   .post(createUser);
+
 router
   .route('/:id')
   .get(getUser)
